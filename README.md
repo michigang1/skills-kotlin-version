@@ -28,11 +28,11 @@
 | 🟨 callbacks          |                       | 🟦 pool               | 🟨 inner class             | 🟦 unittest          |
 | ⬜ RxJava             |                       | 🟦 wrapper            | 🟨 typealias               | 🟦 git               |
 | 🟨 coroutines         |                       | 🟨 default parameters | 🟨 RegExp                  | 🟦 github            |
-| 🟨 spread(*)          |                       | 🟦 lambda             | 🟨 global                  | 🟨 node.js           |
-| 🟨 vararg             |                       | 🟦 null               | 🟨 undefined(Nothing?)     | 🟨 Kotlin/Common     |
-| 🟨 null safety        |                       | 🟨 labels             | 🟨 Nothing, Any types      | 🟨 Coding conventions|                     
-| 🟨 type checks, casts |                       | 🟨 inline             | 🟨 enum classes            | 🟨 Kotlin/JS         |
-| 🟨 package and import |                       | 🟨 infix              | 🟨 fun interface, SAM      | 🟨 Kotlin/JVM        |
-| 🟨 annotations        |                       | 🟨 extensions          |🟨 generics: in, out, where| 🟨 Kotlin/Native     |
-| 🟨 reflaction         |                       | 🟨 operator overloading|🟨 inner                   | 🟨Type-safe builders(DSL)|                
-| 🟨 delagation         |                       | 🟨 overloading         |🟨 typealias               |                      |
+| 🟨 spread(*)          |                       | 🟦 lambda             | 🟨 global                  | ⬜️ node.js           |
+| 🟨 vararg             |                       | 🟦 null               | 🟨 undefined(Nothing?)     | ⬜️Kotlin/Common      |
+| 🟨 null safety        |                       | 🟨 labels             | 🟨 Nothing, Any types      | ⬜️ Coding conventions|                     
+| 🟨 type checks, casts |                       | 🟨 inline             | 🟨 enum classes            | ⬜️ Kotlin/JS         |
+| 🟨 package and import |                       | 🟨 infix              | 🟨 fun interface, SAM      | ⬜️Kotlin/JVM         |
+| ⬜️ annotations        |                       | 🟨 extensions          |🟨 generics: in, out, where| ⬜️ Kotlin/Native     |
+| ⬜️ reflaction         |                       | 🟨 operator overloading|🟨 inner                   | ⬜️Type-safe builders(DSL)|                
+| ⬜️ delagation         |                       | 🟨 overloading         |🟨 typealias               |                      |
