@@ -9,14 +9,14 @@
 | 🟦 value              | 🟦 if                 | 🟦 recursion          | 🟦 array             | 🟦 refactoring       |
 | 🟦 identifier         | 🟦 loops              | 🟦 function           | 🟦 instance          | 🟦 code review       |
 | 🟦 variable           | 🟦 assignment         | 🟦 return             | 🟦 object            | 🟦 antipatterns      |
-| 🟦 constant           | 🟦 Object             | 🟦 signature          | 🟦 collection        | 🟦 paradigm          |
+| 🟦 constant           | 🟨 range              | 🟦 signature          | 🟦 collection        | 🟦 paradigm          |
 | 🟦 scalar             | 🟦 class              | 🟦 argument           | 🟦 hash table        | 🟦 algorithm         |
 | 🟦 literal            | 🟦 while              | 🟦 parameter          | 🟦 linked list       | 🟦 magic numbers     |
 | 🟦 expression         | 🟦 do..while          | 🟦 pure               | 🟦 queue             | 🟦 hardcode          |
 | 🟦 heap               | 🟦 for                | 🟦 function           | 🟦 stack             | 🟦 complexity        |
 | 🟦 type               | 🟨 for..in            | 🟦 side effects       | 🟦 deque             | 🟦 decomposition     |
 | 🟦 primitive types    | 🟨 forEachIndexed     | 🟦 closure            | 🟦 serialization     | ⬜️ spaghetti         |
-| 🟦 reference          | 🟨 for await          | 🟦 partial            | 🟦 mixin, extend     | ⬜️ silver bullet     |
+| 🟦 reference          | 🟨 if expression      | 🟦 partial            | 🟦 mixin, extend     | ⬜️ silver bullet     |
 | 🟦 flag               | 🟦 throw              | ⬜️ curry              | 🟨 iterator          | ⬜️ not invented here |
 | 🟦 lexical scope      | 🟦 try..catch         | 🟦 chaining           | 🟨 typed arrays      | 🟦 dead code         |
 | 🟦 code block         | 🟦 equality operators | 🟦 higher order       | 🟨 Map               | 🟦 unreachable code  |
@@ -24,13 +24,15 @@
 | 🟨 this               | 🟦 bitwise operators  | 🟦 listener           | ⬜️ weak collections  | 🟦 exception         |
 | 🟨 arrow function     | 🟦 break, continue    | ⬜️ pipe               | ⬜️ Proxy             | 🟦 return early      |
 | 🟨 generator          | 🟦 switch             | ⬜️ memoize            | ⬜️ Symbol            | 🟦 linter            |
-| 🟨 threads            | 🟨 where              | 🟦 factory            | 🟨 string parsing    | ⬜️ prettier          |
+| 🟨 threads            | 🟨 where expression   | 🟦 factory            | 🟨 string parsing    | ⬜️ prettier          |
 | 🟨 callbacks          |                       | 🟦 pool               | 🟨 timers            | 🟦 unittest          |
 | ⬜ RxJava             |                       | 🟦 wrapper            | 🟨 EventEmitter      | 🟦 git               |
 | 🟨 coroutines         |                       | 🟨 default parameters | 🟨 RegExp            | 🟦 github            |
 | 🟨 spread(*)          |                       | 🟦 lambda             | 🟨 global            | 🟨 node.js           |
-| 🟨 vararg             |                       | 🟦 null               | 🟨 undefined(Nothing?)| 🟨 JVM             |
-| 🟨 null safety        |                       |                       | 🟨 range             |
-| 🟨 type checks, casts |
-| 🟨 package and import |
-| 🟨 annotations        |
+| 🟨 vararg             |                       | 🟦 null               | 🟨 undefined(Nothing?)| 🟨 JVM              |
+| 🟨 null safety        |                       | 🟨 labels             | 🟨 Nothing, Any types|                        |
+| 🟨 type checks, casts |                       | 🟨 inline             |  
+| 🟨 package and import |                       | 🟨 infix 
+| 🟨 annotations        |                       | 🟨 extensions
+| 🟨 reflaction         |                       | 🟨 operator overloading|                      |                      |
+|                       |                       | 🟨 overloading         |                      |                      |
