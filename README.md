@@ -31,7 +31,7 @@
 | 🟨 spread(*)          |                       | 🟦 lambda             | 🟨 global                  | ⬜️ node.js           |
 | 🟨 vararg             |                       | 🟦 null               | 🟨 undefined(Nothing?)     | ⬜️Kotlin/Common      |
 | 🟨 null safety        |                       | 🟨 labels             | 🟨 Nothing, Any types      | ⬜️ Coding conventions|                     
-| 🟨 type checks, casts |                       | 🟨 inline             | 🟨 enum classes            | ⬜️ Kotlin/JS         |
+| 🟨 type checks, casts |                       | 🟨 inline             | 🟨 enum, data classes      | ⬜️ Kotlin/JS         |
 | 🟨 package and import |                       | 🟨 infix              | 🟨 fun interface, SAM      | ⬜️Kotlin/JVM         |
 | ⬜️ annotations        |                       | 🟨 extensions          |🟨 generics: in, out, where| ⬜️ Kotlin/Native     |
 | ⬜️ reflaction         |                       | 🟨 operator overloading|🟨 inner                   | ⬜️Type-safe builders(DSL)|                
